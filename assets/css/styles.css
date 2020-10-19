@@ -1,17 +1,65 @@
 body{
-  background-color: #EBEBEB;
+  background-color: #bdbec7; /* This is to show contrast */
   font-family: arial,sans-serif;
 }
 
-h1,h2 {
-  color: #84A98C;
+.wrapper{
+  background:#1e2240; /* This is to show contrast */
+  width: 100%;
+  max-width:800px;
+  margin:0;
+  padding: 20px 20px;
+  color: #f2823a
 }
 
+h1{
+  margin-bottom: .1em;
+}
+
+h2{
+  margin-bottom: .25em;
+  margin-top:1em;
+}
+
+h1,h2 {
+  color: #ffffff;
+}
+
+blockquote {
+  border-left: 4px solid #8B9AA5;
+  padding: 12px;
+  background-color: #ffffff;
+  margin-left: 2;
+  margin-right: 2;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.caption{
+  font-style: italic;
+  margin-top: 0;
+}
+
+
 a{
-  color: #59C3C3;
+  color: #ffffff;
 }
 
 img{
-  max-width:100%;
+  margin-left: auto;
+  margin-right: auto;
   height:auto;
+}
+
+ul{
+  padding-left:20px;
+  margin-top:8px;
+}
+
+p{
+  line-height:.5cm; /* This is to space out the text for proximity*/
 }
