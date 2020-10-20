@@ -1,19 +1,20 @@
 body{
   background-color: #bdbec7; /* This is to show contrast */
   font-family: arial,sans-serif;
+  color: #ffffff;
 }
 
 .wrapper{
-  background:#1e2240; /* This is to show contrast */
-  width: 100%;
+  background-color:#1e2240; /* This is to show contrast */
+  width: 92%;
   max-width:800px;
-  margin:0;
-  padding: 20px 20px;
+  margin:0 auto;
+  padding: 12px 20px;
   color: #f2823a
 }
 
 h1{
-  margin-bottom: .1em;
+  margin-bottom: .5em;
 }
 
 h2{
@@ -22,7 +23,7 @@ h2{
 }
 
 h1,h2 {
-  color: #ffffff;
+  color: #000000;
 }
 
 blockquote {
@@ -44,12 +45,17 @@ img {
   margin-top: 0;
 }
 
+header{
+  background-image: url(../images/spikes.png);
+  border-bottom: 1px solid #00000;
+  text-align: center;
+}
 
 a{
   color: #ffffff;
 }
 
-img{
+image{
   margin-left: auto;
   margin-right: auto;
   height:auto;
@@ -62,4 +68,10 @@ ul{
 
 p{
   line-height:.5cm; /* This is to space out the text for proximity*/
+}
+
+footer.wrapper {
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 2px solid #ffffff;
 }
