@@ -1,0 +1,42 @@
+body{
+  background-color:#FF0000;
+  font-family: arial,sans-serif;
+  color: #000000;
+}
+
+h1{
+  color: #ffffff;
+  text-align: center;
+}
+.wrapper{ /* Used to seperate from other pieces*/
+  background-color:	 #00FFFF;
+  width: 92%;
+  max-width:1920px;
+  margin:0 auto;
+  padding: 12px 20px;
+  color: #000000;
+  font-family: arial,sans-serif;
+}
+
+footer{
+  text-align: center;
+}
+
+.image{ /* This is to space out the images for proximity*/
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.images{ /* This is to space out the images for proximity*/
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+.caption{ /* Italicized captions for sources*/
+  font-style: italic;
+  margin-top: 0;
+}
+
+  p{ /* spaced out the words for proximity*/
+    line-height:.75cm;
+  }
