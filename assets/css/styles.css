@@ -1,11 +1,11 @@
 body{
-  background-color: #bdbec7; /* This is to show contrast */
+  background-color: #EBEBEB; /* This is to show contrast */
   font-family: arial,sans-serif;
-  color: #ffffff;
+  color: #302F2F;
 }
 
 .wrapper{
-  background-color:#1e2240; /* This is to show contrast */
+  background-color:#ffffff; /* This is to show contrast */
   width: 92%;
   max-width:800px;
   margin:0 auto;
@@ -23,15 +23,14 @@ h2{
 }
 
 h1,h2 {
-  color: #000000;
+  color: #99752A;
 }
 
 blockquote {
   border-left: 4px solid #8B9AA5;
   padding: 12px;
-  background-color: #ffffff;
-  margin-left: 2;
-  margin-right: 2;
+  background-color: #f9f9f9;
+  margin-left: 0;
 }
 
 img {
@@ -42,7 +41,7 @@ img {
 
 .caption{
   font-style: italic;
-  margin-top: 0;
+  margin-top: .25em;
 }
 
 header{
@@ -52,22 +51,21 @@ header{
 }
 
 a{
-  color: #ffffff;
+  color: #2C465B;
 }
 
-image{
-  margin-left: auto;
-  margin-right: auto;
-  height:auto;
+.image{
+text-align: center;
+margin: 2em 0;
 }
 
 ul{
-  padding-left:20px;
+  padding-left:16px;
   margin-top:8px;
 }
 
 p{
-  line-height:.5cm; /* This is to space out the text for proximity*/
+  line-height: 1.4em; /* This is to space out the text for proximity*/
 }
 
 footer.wrapper {
