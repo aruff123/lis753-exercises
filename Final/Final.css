@@ -1,0 +1,97 @@
+* {
+  box-sizing; border-box;
+}
+
+body{
+  background-color: #00FF00; /* This is to show contrast */
+  font-family: arial,sans-serif;
+  color: #850000;
+}
+
+.wrapper{
+  background-color:#ffffff; /* This is to show contrast */
+  width: 98%;
+  max-width:800px;
+  margin:0 auto;
+  padding: 12px 20px;
+  color: #850000
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+
+h1{
+  margin-bottom: .5em;
+}
+
+h1#page-title {
+  margin:0;
+}
+
+h2{
+  margin-bottom: .25em;
+  margin-top:1em;
+}
+
+h1,h2 {
+  color: #850000;
+}
+
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.caption{
+  font-style: italic;
+  margin-top: 1em;
+}
+
+
+header.wrap{
+  padding:26px 20px;
+  border-bottom: 2px solid #d2d2d2;
+  text-align: center;
+}
+
+a{
+  color: #850000;
+}
+
+.image{
+text-align: center;
+margin: 2em 0;
+}
+
+ul{
+  padding-left:16px;
+  margin-top:8px;
+}
+
+p{
+  line-height: 1.4em; /* This is to space out the text for proximity*/
+}
+
+footer.wrapper {
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 2px solid #ffffff;
+}
+
+article{
+  padding-top: 14px;
+}
+
+aside h2 {
+  font-size: 1.4rem;
+}
+
+@media all and (min-width:920px) {
+
+aside h2:first-child {
+  margin-top:12px;
+    }
+}
