@@ -1,3 +1,7 @@
+* {
+  box-sizing; border-box;
+}
+
 body{
   background-color: #EBEBEB; /* This is to show contrast */
   font-family: arial,sans-serif;
@@ -6,7 +10,7 @@ body{
 
 .wrapper{
   background-color:#ffffff; /* This is to show contrast */
-  width: 92%;
+  width: 98%;
   max-width:800px;
   margin:0 auto;
   padding: 12px 20px;
@@ -15,6 +19,10 @@ body{
 
 h1{
   margin-bottom: .5em;
+}
+
+h1#page-title {
+  margin:0;
 }
 
 h2{
@@ -50,6 +58,10 @@ header{
   text-align: center;
 }
 
+header.wrapper{
+  padding:26px 20px;
+}
+
 a{
   color: #2C465B;
 }
@@ -72,4 +84,19 @@ footer.wrapper {
   text-align: center;
   padding: 40px 20px;
   border-top: 2px solid #ffffff;
+}
+
+article{
+  padding-top: 14px;
+}
+
+aside h2 {
+  font-size: 1.4rem;
+}
+
+@media all and (min-width:920px) {
+
+aside h2:first-child {
+  margin-top:12px;
+    }
 }
