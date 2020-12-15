@@ -98,5 +98,20 @@ aside h2 {
 
 aside h2:first-child {
   margin-top:12px;
+  
+@media all and (min-width:920px) {
+  article,aside{
+    float: left;
+}
+
+  article{
+    width:75%;
+}
+
+  aside{
+    width:25%;
+  }
+    aside h2:first-child {
+      margin-top:12px;
     }
 }
